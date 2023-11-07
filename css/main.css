@@ -38,7 +38,7 @@ footer > div > div > ul > li > a:hover {
 @media not all and (min-width: 768px) {
   .fa-chevron-right {
     display: none;
-    padding: 4px;
+    padding: 0px 4px;
     transition: all 0.3s ease;
   }
 
