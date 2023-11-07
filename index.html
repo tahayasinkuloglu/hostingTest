@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>HOSTING</title>
+  </head>
+  <body>
+    <header class="w-full bg-[#FAF4E9] h-24 relative max-lg:fixed max-lg:z-30">
+      <div
+        class="flex items-center justify-between lg:justify-normal lg:container h-full mx-auto gap-5 px-4 sm:px-10 xl:px-0 relative"
+      >
+        <div class="max-lg:flex max-lg:items-center max-lg:gap-8">
+          <div class="hidden max-lg:block">
+            <i
+              class="fa-solid fa-bars text-2xl cursor-pointer"
+              id="hamburger"
+            ></i>
+          </div>
+          <img src="assets/logo-siteground.png" class="w-40" />
+        </div>
+        <nav class="hidden lg:flex lg:flex-1 lg:items-center">
+          <ul class="flex text-xl font-bold">
+            <li class="flex items-center hover:bg-white rounded-2xl hosting">
+              <a href="#" class="px-4 h-16 flex items-center"> Hosting </a>
+              <div
+                class="absolute container mx-auto left-0 top-20 bg-white p-4 rounded-xl hostingItem"
+              >
+                <ul class="flex">
+                  <li
+                    class="bg-white p-4 w-1/5 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img src="/assets/house.png" class="w-20 ml-[-10px]" />
+                      <span class="font-bold text-xl"
+                        >Web <br />
+                        Hosting</span
+                      >
+                      <p class="font-normal text-base w-4/5">
+                        Ultrafast and secure web hosting for your business.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 w-1/5 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img
+                        src="/assets/wordpress-logo.jpg"
+                        class="w-20 ml-[-10px]"
+                      />
+                      <span class="font-bold text-xl"
+                        >WordPress <br />
+                        Hosting</span
+                      >
+                      <p class="font-normal text-base w-4/5">
+                        Managed WordPress hosting for performance.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 w-1/5 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <div class="items-center h-20 flex">
+                        <img src="/assets/woo-commerce.png" class="w-20" />
+                      </div>
+                      <span class="font-bold text-xl"
+                        >WooCommerce <br />
+                        Hosting</span
+                      >
+                      <p class="font-normal text-base w-4/5">
+                        WooCommerce hosting to sell online easily.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 w-1/5 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img src="/assets/house.png" class="w-20 ml-[-10px]" />
+                      <span class="font-bold text-xl"
+                        >Cloud <br />
+                        Hosting</span
+                      >
+                      <p class="font-normal text-base w-4/5">
+                        High-performance cloud plans for growing sites.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 w-1/5 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img src="/assets/house.png" class="w-20 ml-[-10px]" />
+                      <span class="font-bold text-xl"
+                        >Reseller <br />
+                        Hosting</span
+                      >
+                      <p class="font-normal text-base w-4/5">
+                        Manage multiple sites like a professional.
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="flex items-center hover:bg-white rounded-2xl technology">
+              <a href="#" class="px-4 h-16 flex items-center">Technology</a>
+              <div
+                class="absolute mx-auto left-0 top-20 bg-white p-4 rounded-xl technologyItem"
+              >
+                <ul class="flex">
+                  <li
+                    class="bg-white p-4 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200 w-1/2"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img src="/assets/house.png" class="w-20 ml-[-10px]" />
+                      <span class="font-bold text-xl">Technology</span>
+                      <p class="font-normal text-base w-4/5">
+                        Premium hosting technologies.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200 w-1/2"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img
+                        src="/assets/wordpress-logo.jpg"
+                        class="w-20 ml-[-10px]"
+                      />
+                      <span class="font-bold text-xl">Data Centers</span>
+                      <p class="font-normal text-base w-4/5">
+                        Modern and green data centers.
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="flex items-center hover:bg-white rounded-2xl aboutUs">
+              <a href="#" class="px-4 h-16 flex items-center">About Us</a>
+              <div
+                class="absolute mx-auto left-0 top-20 bg-white p-4 rounded-xl aboutUsItem"
+              >
+                <ul class="flex">
+                  <li
+                    class="bg-white p-4 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200 w-1/2"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img src="/assets/house.png" class="w-20 ml-[-10px]" />
+                      <span class="font-bold text-xl">Company</span>
+                      <p class="font-normal text-base w-4/5">
+                        A unique team behind your online success.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200 w-1/2"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img
+                        src="/assets/wordpress-logo.jpg"
+                        class="w-20 ml-[-10px]"
+                      />
+                      <span class="font-bold text-xl">Support</span>
+                      <p class="font-normal text-base w-4/5">
+                        Top-rated hosting support 7/24.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200 w-1/2"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img
+                        src="/assets/wordpress-logo.jpg"
+                        class="w-20 ml-[-10px]"
+                      />
+                      <span class="font-bold text-xl">Clients</span>
+                      <p class="font-normal text-base w-4/5">
+                        Clients reviews and feedback on our hosting.
+                      </p>
+                    </a>
+                  </li>
+                  <li
+                    class="bg-white p-4 rounded-xl hover:bg-[#F7F2FC] transition-all duration-200 w-1/2"
+                  >
+                    <a href="" class="flex flex-col gap-2">
+                      <img
+                        src="/assets/wordpress-logo.jpg"
+                        class="w-20 ml-[-10px]"
+                      />
+                      <span class="font-bold text-xl"> Blog</span>
+                      <p class="font-normal text-base w-4/5">
+                        Stay updated with the latest news.
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="flex items-center hover:bg-white rounded-2xl">
+              <a href="#" class="px-4 h-16 flex items-center">Affiliates</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="flex items-center gap-2 text-xl font-bold px-4 h-16" href="#">
+          <i class="fa-regular fa-circle-user scale-110"></i>
+          <span class="md:inline hidden">Login</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="bg-[#FAF4E9]">
+        <div
+          class="lg:container mx-auto lg:mb-[-190px] lg:pb-[130px] px-4 sm:px-10 xl:px-0 max-lg:pt-20"
+        >
+          <article class="flex justify-between py-[8vh] gap-10">
+            <div class="flex flex-col gap-6">
+              <h1 class="text-4xl font-bold xl:leading-tight xl:text-6xl">
+                Hosting That <br />
+                Helps You Grow
+              </h1>
+              <p class="text-lg xl:text-[22px]">
+                Elevate your online presence with a hosting partner that has
+                your back - with superb security, ultrafast speed and 24/7
+                friendly support.
+              </p>
+              <div>
+                <p class="text-lg xl:text-[22px]">
+                  <span
+                    >From
+                    <span class="text-[#14803F] font-bold">$3.99</span
+                    >/mo.</span
+                  >
+                  <span class="text-base"
+                    >Regular <del>$17.99/mo.</del> Excl. VAT</span
+                  >
+                </p>
+              </div>
+              <div class="py-6">
+                <a
+                  href="#"
+                  class="py-6 px-10 bg-blue-600 text-white rounded-full font-bold uppercase text-lg"
+                >
+                  <span>START NOW</span>
+                </a>
+              </div>
+            </div>
+            <div class="lg:flex lg:w-[60%] hidden">
+              <img
+                src="assets/index.png"
+                class="w-full object-contain xl:object-cover xl:bg-cover"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+      <section>
+        <article class="lg:container mx-auto mb-[8vh] px-6 md:px-10 xl:px-0">
+          <div>
+            <p class="my-10 lg:my-0 text-center text-lg">
+              Hosting solutions trusted by the owners of
+              <strong class="text-[#14803F]">2,800,000</strong> domains.
+            </p>
+            <div class="flex-col lg:flex-row flex gap-10 lg:py-8">
+              <div
+                class="border border-black rounded-xl bg-white w-full lg:w-1/3"
+              >
+                <div class="p-6">
+                  <div class="flex flex-col gap-2 mb-8">
+                    <div>
+                      <img src="assets/house.png" class="w-20" />
+                    </div>
+                    <h2 class="text-[#363636] text-2xl font-bold">
+                      Web Hosting
+                    </h2>
+                    <p
+                      class="text-[#363636] text-lg"
+                      style="font-family: var(--roboto)"
+                    >
+                      Fast and secure hosting for small and medium sites and
+                      business.
+                    </p>
+                  </div>
+                  <div class="text-blue-600 text-xl">
+                    <a href="#">
+                      <span>VIEW PLANS</span>
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="border border-black rounded-xl bg-white w-full lg:w-1/3"
+              >
+                <div class="p-6">
+                  <div class="flex flex-col gap-2 mb-8">
+                    <div>
+                      <img src="assets/wordpress-logo.jpg" class="w-20" />
+                    </div>
+                    <h2 class="text-[#363636] text-2xl font-bold">
+                      WordPress Hosting
+                    </h2>
+                    <p
+                      class="text-[#363636] text-lg"
+                      style="font-family: var(--roboto)"
+                    >
+                      Manage your WordPress sites easily and with more freedom.
+                    </p>
+                  </div>
+                  <div class="text-blue-600 text-xl">
+                    <a href="#">
+                      <span>VIEW PLANS</span>
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="border border-black rounded-xl bg-white w-full lg:w-1/3"
+              >
+                <div class="p-6">
+                  <div class="flex flex-col gap-2 mb-8">
+                    <div class="h-[80px] flex items-center">
+                      <img src="assets/woo-commerce.png" class="w-20" />
+                    </div>
+                    <h2 class="text-[#363636] text-2xl font-bold">
+                      WooCommerce Hosting
+                    </h2>
+                    <p
+                      class="text-[#363636] text-lg h-14"
+                      style="font-family: var(--roboto)"
+                    >
+                      Boost your business with optimized Woo hosting.
+                    </p>
+                  </div>
+                  <div class="text-blue-600 text-xl">
+                    <a href="#">
+                      <span>VIEW PLANS</span>
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section>
+        <div class="lg:container mx-auto mb-[8vh] px-4 md:px-10 xl:px-0">
+          <div class="text-center">
+            <h2 class="text-3xl xl:text-5xl font-bold pb-10 xl:pb-14">
+              Let Your Site Run up to
+              <span
+                class="bg-[#B4EAB5] md:my-0 my-2 inline-block md:inline px-4"
+                >500% Faster</span
+              >
+            </h2>
+          </div>
+          <article class="flex flex-wrap justify-between gap-y-20 xl:gap-y-36">
+            <div class="w-full md:w-[45%]">
+              <div class="flex flex-col gap-8 xl:gap-12">
+                <img src="assets/premium_google_cloud.svg" />
+                <div class="flex flex-col gap-4 xl:gap-8">
+                  <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
+                    Premium Google Cloud
+                  </h3>
+                  <p>
+                    Our platform is built on the premium Google cloud
+                    infrastructure for top reliability, security and speed. We
+                    take advantage of their fast network and SSD persistent
+                    storage for optimal site speed and a high-level of
+                    redundancy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-[45%]">
+              <div class="flex flex-col gap-8 xl:gap-12">
+                <img src="assets/ultrafast_server_setup.svg" />
+                <div class="flex flex-col gap-4 xl:gap-8">
+                  <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
+                    Ultrafast server setup
+                  </h3>
+                  <p>
+                    We developed a custom implementation of PHP and MySQL for
+                    high website performance. Our PHP setup alone significantly
+                    cuts the TTFB (time to first byte) and makes your pages load
+                    30% faster on average.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-[45%]">
+              <div class="flex flex-col gap-8 xl:gap-12">
+                <img src="assets/top_wordpress_speed.svg" />
+                <div class="flex flex-col gap-4 xl:gap-8">
+                  <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
+                    Top WordPress speed
+                  </h3>
+                  <p>
+                    We continuously work to boost WordPress performance. All
+                    sites hosted with us get static and dynamic caching enabled,
+                    which alone results in up to 5x faster sites. We also
+                    preinstall our own Speed Optimizer plugin on all instances,
+                    which gives you out-of-the-box media and front-end
+                    optimizations and environmental control for more
+                    performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-[45%]">
+              <div class="flex flex-col gap-8 xl:gap-12">
+                <img src="assets/latest_technologies_integrated.svg" />
+                <div class="flex flex-col gap-4 xl:gap-8">
+                  <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
+                    Latest technologies integrated
+                  </h3>
+                  <p>
+                    We are consistently among the first hosting companies to
+                    provide their users access to the latest speed technologies.
+                    Our customers do not have to wait in order to take advantage
+                    of the newest PHP versions or the most innovative protocols
+                    and compression algorithms like Brotli, HTTP/2, TLS 1.3 and
+                    OCSP Stapling.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div
+          class="flex flex-col lg:flex-row bg-[#4343F0] gap-x-24 xl:gap-x-32 lg:pr-14"
+        >
+          <div
+            class="!w-full !bg-no-repeat !bg-cover !bg-center !h-[400px] lg:!h-[auto]"
+            style="background: url(assets/support.jpg)"
+          ></div>
+          <article class="text-white py-10 lg:py-14">
+            <div
+              class="flex flex-col gap-4 lg:gap-8 pb-14 xl:pb-24 text-center lg:text-left"
+            >
+              <h2
+                class="text-3xl lg:text-5xl font-bold lg:leading-tight lg:w-[400px]"
+              >
+                Enjoy top-rated hosting support
+              </h2>
+              <p class="text-xl lg:text-2xl sm:px-14 lg:px-0">
+                Our Customer Care team is among the highest - rated support
+                squads online, fast, multi-skiller and helpful.
+              </p>
+            </div>
+            <div class="flex flex-col gap-6 sm:gap-8 px-4 md:px-0">
+              <div
+                class="flex flex-col sm:flex-row justify-between gap-6 sm:gap-10 xl:gap-0 text-center lg:text-left"
+              >
+                <div class="w-full sm:w-1/2">
+                  <h3 class="text-2xl font-bold">Available 7/24</h3>
+                  <p>Round-the-clock help center</p>
+                </div>
+                <div class="w-full sm:w-1/2">
+                  <h3 class="text-2xl font-bold">Proficient & Friendly</h3>
+                  <p>Always eager to help</p>
+                </div>
+              </div>
+              <div
+                class="flex flex-col sm:flex-row justify-between gap-6 sm:gap-10 xl:gap-0 text-center lg:text-left"
+              >
+                <div class="w-full sm:w-1/2">
+                  <h3 class="text-2xl font-bold">Extremely Fast</h3>
+                  <p>Quick pickup & resolution</p>
+                </div>
+                <div class="w-full sm:w-1/2">
+                  <h3 class="text-2xl font-bold">98% Satisfaction</h3>
+                  <p>Based on rated interactions</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="bg-[#F5F6FA]">
+        <div
+          class="lg:container mx-auto overflow-hidden py-[8vh] px-4 md:px-10 xl:px-0"
+        >
+          <article class="flex flex-col-reverse lg:flex-row gap-20 lg:gap-32">
+            <div class="flex flex-col gap-12 justify-center w-full lg:w-1/2">
+              <h2
+                class="text-3xl xl:text-5xl font-bold leading-none xl:leading-tight"
+              >
+                Put your site’s safety first
+              </h2>
+              <p class="text-xl xl:text-2xl xl:leading-loose">
+                With our 7/24 system administration, smart WAF, distributed
+                backups and plenty of extra security features, we support you in
+                keeping your site safe so you don’t lose visitors and
+                credibility.
+              </p>
+              <div class="py-6">
+                <a
+                  href="#"
+                  class="py-4 px-8 border-2 border-blue-600 text-blue-600 rounded-full font-bold uppercase text-lg hover:bg-blue-700 hover:text-white transition-all duration-300"
+                >
+                  <span>LEARN MORE</span>
+                </a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2">
+              <img
+                src="assets/website_safety_first.svg"
+                class="w-full object-cover"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div class="lg:container mx-auto my-16 xl:my-24">
+          <div
+            class="w-3/4 xl:w-1/2 mx-auto flex flex-col gap-6 xl:gap-12 pb-10 xl:pb-12"
+          >
+            <h2 class="text-3xl xl:text-5xl font-bold text-center">
+              Customer Success Stories
+            </h2>
+            <p class="text-2xl text-center">
+              Celebrating business owners and freelance professionals on our
+              platform by sharing their stories.
+            </p>
+          </div>
+          <article class="w-3/4 xl:w-1/2 mx-auto">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/assets/sebastien.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/the_greats.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/wfta.jpg" />
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#DFECFC] pb-[8vh]">
+      <section>
+        <div
+          class="lg:container mx-auto flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-between gap-y-10 gap-4 lg:gap-y-0 py-[4vh] lg:py-[8vh] px-12"
+        >
+          <div
+            class="md:w-[calc(50%-12px)] lg:w-1/4 flex flex-col gap-3 max-md:relative max-md:overflow-hidden"
+          >
+            <h3
+              class="text-lg md:text-2xl font-bold max-md:flex max-md:items-center max-md:justify-between cursor-pointer footerToggle"
+            >
+              HOSTING SERVICES
+              <i class="fa-solid fa-chevron-right md:hidden"></i>
+            </h3>
+            <ul class="footerUl max-md:flex max-md:flex-col max-md:gap-3">
+              <li>
+                <a href="">Web Hosting</a>
+              </li>
+              <li>
+                <a href="">WordPress Hosting</a>
+              </li>
+              <li>
+                <a href="">WooCommerce Hosting</a>
+              </li>
+              <li>
+                <a href="">Reseller Hosting</a>
+              </li>
+              <li>
+                <a href="">Cloud Hosting</a>
+              </li>
+              <li>
+                <a href="">Domain Names</a>
+              </li>
+              <li>
+                <a href="">Web Hosting for Agencies</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="md:w-[calc(50%-12px)] lg:w-1/4 flex flex-col gap-3 max-md:relative max-md:overflow-hidden"
+          >
+            <h3
+              class="text-lg md:text-2xl font-bold max-md:flex max-md:items-center max-md:justify-between cursor-pointer footerToggle"
+            >
+              USEFUL SOURCES
+              <i class="fa-solid fa-chevron-right md:hidden"></i>
+            </h3>
+            <ul class="footerUl max-md:flex max-md:flex-col max-md:gap-3">
+              <li>
+                <a href="">WordPress Tutorial</a>
+              </li>
+              <li>
+                <a href="">WordPress Plugins</a>
+              </li>
+              <li>
+                <a href="">WordPress Optimization Ebook</a>
+              </li>
+              <li>
+                <a href="">WordPress Security Ebook</a>
+              </li>
+              <li>
+                <a href="">WooCommerce Ebook</a>
+              </li>
+              <li>
+                <a href="">Using WordPress REST API Ebook</a>
+              </li>
+              <li>
+                <a href="">Start Selling Online Guide</a>
+              </li>
+              <li>
+                <a href="">Small Business Guide</a>
+              </li>
+              <li>
+                <a href="">Holiday Marketing Guide</a>
+              </li>
+              <li>
+                <a href="">Post-Holiday Sales Guide</a>
+              </li>
+              <li>
+                <a href="">Knowledge Base</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="md:w-[calc(50%-12px)] lg:w-1/4 flex flex-col gap-3 max-md:relative max-md:overflow-hidden"
+          >
+            <h3
+              class="text-lg md:text-2xl font-bold max-md:flex max-md:items-center max-md:justify-between cursor-pointer footerToggle"
+            >
+              ABOUT US
+              <i class="fa-solid fa-chevron-right md:hidden"></i>
+            </h3>
+            <ul class="footerUl max-md:flex max-md:flex-col max-md:gap-3">
+              <li>
+                <a href="">Company</a>
+              </li>
+              <li>
+                <a href="">Affiliate Program</a>
+              </li>
+              <li>
+                <a href="">SiteGround Review</a>
+              </li>
+              <li>
+                <a href="">Blog</a>
+              </li>
+              <li>
+                <a href="">Carrers</a>
+              </li>
+              <li>
+                <a href="">Brand Assets</a>
+              </li>
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="w-[calc(50%-12px)] lg:w-1/4 hidden md:flex flex-col gap-3"
+          >
+            <h3 class="text-2xl font-bold">RECENT FROM BLOG</h3>
+            <ul>
+              <li>
+                <a href="">
+                  Block Sophisticated HTTP Attacks with SiteGround CDN’s ‘Under
+                  Attack’ Mode
+                </a>
+                <div class="flex justify-between py-3">
+                  <span>25 Oct, 2023</span>
+                  <a href="" class="hover:underline">Read More</a>
+                </div>
+              </li>
+              <li>
+                <a href="">
+                  Revolutionizing Customer Support: Welcome to the Future with
+                  SiteGround’s AI Assistant
+                </a>
+                <div class="flex justify-between py-3">
+                  <span>21 Sep, 2023</span>
+                  <a href="" class="hover:underline">Read More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="lg:container mx-auto flex flex-col gap-4 px-12 mb-6">
+          <div
+            class="flex flex-col-reverse lg:flex-row gap-4 items-center lg:items-start"
+          >
+            <div class="text-lg">
+              <span>Region: &nbsp;</span>
+              <select name="" id="">
+                <option value="">United States</option>
+                <option value="">United Kingdoms</option>
+                <option value="">Spain</option>
+                <option value="">Italy</option>
+                <option value="">Germany</option>
+                <option value="">France</option>
+                <option value="">Europa</option>
+                <option value="">Australia</option>
+                <option value="">LATAM</option>
+              </select>
+            </div>
+            <div class="flex text-lg">
+              <span>We Accept: &nbsp;</span>
+              <div>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+                <i class="fa-brands fa-cc-discover"></i>
+              </div>
+            </div>
+          </div>
+          <div class="border-b border-[#363636]"></div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="lg:container mx-auto px-12 flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between"
+        >
+          <div>
+            <div class="flex gap-3 mb-4" style="font-family: var(--roboto)">
+              <a
+                href="#"
+                class="font-bold text-lg lg:text-xl border-r border-blue-700 pr-3"
+                >Terms and Conditions</a
+              >
+              <a
+                href="#"
+                class="font-bold text-lg lg:text-xl border-r border-blue-700 pr-3"
+                >Privacy</a
+              >
+            </div>
+            <p class="text-base lg:text-lg text-center lg:text-left">
+              © 2023 All rights reserved.
+            </p>
+          </div>
+          <div class="text-4xl flex gap-10">
+            <a
+              href="#"
+              class="hover:text-[#363636bb] transition-colors duration-200"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:text-[#363636bb] transition-colors duration-200"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:text-[#363636bb] transition-colors duration-200"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:text-[#363636bb] transition-colors duration-200"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

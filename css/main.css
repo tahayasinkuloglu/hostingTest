@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --poppins: "Poppins", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --main-color: #faf4e9;
+}
+
+body {
+  font-family: var(--poppins);
+  color: #363636;
+}
+
+footer > div > div > ul > li {
+  padding: 4px 0px 4px 0px;
+}
+
+footer > div > div > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.hostingItem,
+.technologyItem,
+.aboutUsItem {
+  display: none;
+}
+
+.hosting:hover > .hostingItem,
+.technology:hover > .technologyItem,
+.aboutUs:hover > .aboutUsItem {
+  display: block;
+}
+
+@media not all and (min-width: 768px) {
+  .fa-chevron-right {
+    display: none;
+    padding: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .activeArrow {
+    transform: rotate(90deg);
+  }
+
+  .footerUl {
+    opacity: 0;
+    height: 0px;
+    transition: all 0.3s ease;
+  }
+
+  .active ~ .footerUl {
+    opacity: 1;
+    height: 250px;
+  }
+}
