@@ -24,7 +24,7 @@
   <body>
     <header class="w-full bg-[#FAF4E9] h-24 relative max-lg:fixed max-lg:z-30">
       <div
-        class="flex items-center justify-between lg:justify-normal xl:container h-full mx-auto gap-5 px-4 sm:px-10 xl:px-0 relative"
+        class="flex items-center justify-between lg:justify-normal lg:container h-full mx-auto gap-5 px-4 sm:px-10 xl:px-0 relative"
       >
         <div class="max-lg:flex max-lg:items-center max-lg:gap-4">
           <div class="hidden max-lg:block">
@@ -46,7 +46,7 @@
                 href="#"
                 class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:pr-48 max-lg:font-[Roboto] max-lg:px-5"
               >
-                Ana Sayfa
+                Home
               </a>
             </li>
             <li
@@ -82,11 +82,11 @@
                     >
                   </li>
                   <li>
-                    <a href="#" class="w-full block py-4 px-5">Bulut Hosting</a>
+                    <a href="#" class="w-full block py-4 px-5">Cloud Hosting</a>
                   </li>
                   <li>
                     <a href="#" class="w-full block py-4 px-5"
-                      >Bayiler için Hosting</a
+                      >Reseller Hosting</a
                     >
                   </li>
                 </ul>
@@ -105,7 +105,7 @@
                         Hosting</span
                       >
                       <p class="font-normal text-base w-4/5">
-                        İşletmeniz için ultra hızlı ve güvenli Web Hosting.
+                        Ultrafast and secure web hosting for your business.
                       </p>
                     </a>
                   </li>
@@ -122,7 +122,7 @@
                         Hosting</span
                       >
                       <p class="font-normal text-base w-4/5">
-                        Performans için yönetilen WordPress Hosting.
+                        Managed WordPress hosting for performance.
                       </p>
                     </a>
                   </li>
@@ -138,7 +138,7 @@
                         Hosting</span
                       >
                       <p class="font-normal text-base w-4/5">
-                        Kolayca online satış yapmak için WooCommerce Hosting.
+                        WooCommerce hosting to sell online easily.
                       </p>
                     </a>
                   </li>
@@ -148,11 +148,11 @@
                     <a href="" class="flex flex-col gap-2">
                       <img src="/assets/house.png" class="w-20 ml-[-10px]" />
                       <span class="font-bold text-xl"
-                        >Bulut <br />
+                        >Cloud <br />
                         Hosting</span
                       >
                       <p class="font-normal text-base w-4/5">
-                        Büyüyen siteler için yüksek performanslı bulut planları.
+                        High-performance cloud plans for growing sites.
                       </p>
                     </a>
                   </li>
@@ -162,11 +162,11 @@
                     <a href="" class="flex flex-col gap-2">
                       <img src="/assets/house.png" class="w-20 ml-[-10px]" />
                       <span class="font-bold text-xl"
-                        >Bayiler için <br />
+                        >Reseller <br />
                         Hosting</span
                       >
                       <p class="font-normal text-base w-4/5">
-                        Birden fazla siteyi profesyonel gibi yönetin.
+                        Manage multiple sites like a professional.
                       </p>
                     </a>
                   </li>
@@ -180,13 +180,13 @@
                 href="#"
                 class="lg:px-4 lg:h-16 flex items-center max-lg:hidden"
               >
-                Teknoloji
+                Technology
                 <i class="fa-solid fa-plus text-xl lg:hidden"></i
               ></a>
               <div
                 class="lg:hidden flex justify-between w-full font-[Roboto] uppercase px-5 h-12 items-center hamburgerDisable"
               >
-                TEKNOLOJİ
+                TECHNOLOGY
                 <i class="fa-solid fa-plus text-xl lg:hidden"></i>
               </div>
               <div class="mb-2 lg:hidden w-full hamburgerMenuActive">
@@ -194,12 +194,10 @@
                   class="font-light font-[Poppins] text-sm flex flex-col text-left w-full"
                 >
                   <li>
-                    <a href="#" class="w-full block py-4 px-5">Teknoloji</a>
+                    <a href="#" class="w-full block py-4 px-5">Technology</a>
                   </li>
                   <li>
-                    <a href="#" class="w-full block py-4 px-5"
-                      >Veri Merkezleri</a
-                    >
+                    <a href="#" class="w-full block py-4 px-5">Data Centers</a>
                   </li>
                 </ul>
               </div>
@@ -212,9 +210,9 @@
                   >
                     <a href="" class="flex flex-col gap-2">
                       <img src="/assets/house.png" class="w-20 ml-[-10px]" />
-                      <span class="font-bold text-xl">Teknoloji</span>
+                      <span class="font-bold text-xl">Technology</span>
                       <p class="font-normal text-base w-4/5">
-                        Premium hosting teknolojileri.
+                        Premium hosting technologies.
                       </p>
                     </a>
                   </li>
@@ -226,9 +224,9 @@
                         src="/assets/wordpress-logo.jpg"
                         class="w-20 ml-[-10px]"
                       />
-                      <span class="font-bold text-xl">Veri Merkezleri</span>
+                      <span class="font-bold text-xl">Data Centers</span>
                       <p class="font-normal text-base w-4/5">
-                        Modern ve çevre dostu veri merkezleri.
+                        Modern and green data centers.
                       </p>
                     </a>
                   </li>
@@ -242,13 +240,13 @@
                 href="#"
                 class="lg:px-4 lg:h-16 flex items-center max-lg:hidden"
               >
-                Hakkımızda
+                About Us
                 <i class="fa-solid fa-plus text-xl lg:hidden"></i>
               </a>
               <div
                 class="lg:hidden flex justify-between w-full font-[Roboto] uppercase px-5 h-12 items-center hamburgerDisable"
               >
-                HAKKIMIZDA
+                ABOUT US
                 <i class="fa-solid fa-plus text-xl lg:hidden"></i>
               </div>
               <div class="mb-2 lg:hidden w-full hamburgerMenuActive">
@@ -256,13 +254,13 @@
                   class="font-light font-[Poppins] text-sm flex flex-col text-left w-full"
                 >
                   <li>
-                    <a href="#" class="w-full block py-4 px-5">Şirket</a>
+                    <a href="#" class="w-full block py-4 px-5">Company</a>
                   </li>
                   <li>
-                    <a href="#" class="w-full block py-4 px-5">Destek</a>
+                    <a href="#" class="w-full block py-4 px-5">Support</a>
                   </li>
                   <li>
-                    <a href="#" class="w-full block py-4 px-5">Müşteriler</a>
+                    <a href="#" class="w-full block py-4 px-5">Clients</a>
                   </li>
                   <li>
                     <a href="#" class="w-full block py-4 px-5">Blog</a>
@@ -278,9 +276,9 @@
                   >
                     <a href="" class="flex flex-col gap-2">
                       <img src="/assets/house.png" class="w-20 ml-[-10px]" />
-                      <span class="font-bold text-xl">Şirket</span>
+                      <span class="font-bold text-xl">Company</span>
                       <p class="font-normal text-base w-4/5">
-                        Çevrimiçi başarınızın arkasında benzersiz bir ekip var.
+                        A unique team behind your online success.
                       </p>
                     </a>
                   </li>
@@ -292,9 +290,9 @@
                         src="/assets/wordpress-logo.jpg"
                         class="w-20 ml-[-10px]"
                       />
-                      <span class="font-bold text-xl">Destek</span>
+                      <span class="font-bold text-xl">Support</span>
                       <p class="font-normal text-base w-4/5">
-                        7/24 en yüksek puanlı hosting hizmeti.
+                        Top-rated hosting support 7/24.
                       </p>
                     </a>
                   </li>
@@ -306,10 +304,9 @@
                         src="/assets/wordpress-logo.jpg"
                         class="w-20 ml-[-10px]"
                       />
-                      <span class="font-bold text-xl">Müşteriler</span>
+                      <span class="font-bold text-xl">Clients</span>
                       <p class="font-normal text-base w-4/5">
-                        Müşterilerin hostingimiz hakkındaki yorumları ve geri
-                        bildirimleri.
+                        Clients reviews and feedback on our hosting.
                       </p>
                     </a>
                   </li>
@@ -323,7 +320,7 @@
                       />
                       <span class="font-bold text-xl"> Blog</span>
                       <p class="font-normal text-base w-4/5">
-                        En son haberlerle güncel kalın.
+                        Stay updated with the latest news.
                       </p>
                     </a>
                   </li>
@@ -334,70 +331,69 @@
               <a
                 href="#"
                 class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:font-[Roboto] max-lg:w-full max-lg:px-5"
-                >Bağlı Kuruluşlar</a
+                >Affiliates</a
               >
             </li>
           </ul>
         </nav>
         <a class="flex items-center gap-2 text-xl font-bold px-4 h-16" href="#">
           <i class="fa-regular fa-circle-user scale-110"></i>
-          <span class="md:inline hidden">Giriş</span>
+          <span class="md:inline hidden">Login</span>
         </a>
       </div>
     </header>
     <main>
       <section class="bg-[#FAF4E9]">
         <div
-          class="xl:container mx-auto lg:mb-[-200px] lg:pb-[200px] xl:mb-[-195px] xl:pb-[150px] px-4 sm:px-10 xl:px-0 max-lg:pt-20"
+          class="lg:container mx-auto lg:mb-[-190px] lg:pb-[130px] px-4 sm:px-10 xl:px-0 max-lg:pt-20"
         >
-          <article class="flex justify-between py-[3vh] gap-10">
-            <div class="flex flex-col gap-6 lg:w-3/4 lg:pt-8">
+          <article class="flex justify-between py-[8vh] gap-10">
+            <div class="flex flex-col gap-6">
               <h1 class="text-4xl font-bold xl:leading-tight xl:text-6xl">
-                Hosting Hizmetimiz <br />
-                Büyümenize Yardımcı Olur
+                Hosting That <br />
+                Helps You Grow
               </h1>
               <p class="text-lg xl:text-[22px]">
-                Üstün güvenlik, ultra yüksek hız ve 7/24 destek hizmeti veren
-                ekibimizle barındırma ortaklarınızı ve çevrimiçi varlığınızı
-                hızlıca yükseltin.
+                Elevate your online presence with a hosting partner that has
+                your back - with superb security, ultrafast speed and 24/7
+                friendly support.
               </p>
               <div>
                 <p class="text-lg xl:text-[22px]">
                   <span
-                    >Kısa süreliğine
-                    <span class="text-[#14803F] font-bold">45.99₺</span
-                    >/ay</span
+                    >From
+                    <span class="text-[#14803F] font-bold">$3.99</span
+                    >/mo.</span
                   >
                   <span class="text-base"
-                    >Önceki fiyat <del>249.99₺/ay</del> Excl. VAT</span
+                    >Regular <del>$17.99/mo.</del> Excl. VAT</span
                   >
                 </p>
               </div>
               <div class="py-6">
                 <a
                   href="#"
-                  class="py-4 px-8 xl:py-6 xl:px-10 bg-blue-600 text-white rounded-full font-bold uppercase text-lg"
+                  class="py-6 px-10 bg-blue-600 text-white rounded-full font-bold uppercase text-lg"
                 >
-                  <span>ŞİMDİ BAŞLA</span>
+                  <span>START NOW</span>
                 </a>
               </div>
             </div>
             <div class="lg:flex lg:w-[60%] hidden">
               <img
                 src="assets/index.png"
-                class="w-full object-contain xl:bg-cover"
+                class="w-full object-contain xl:object-cover xl:bg-cover"
               />
             </div>
           </article>
         </div>
       </section>
       <section>
-        <article class="xl:container mx-auto mb-[8vh] px-6 md:px-10 xl:px-0">
+        <article class="lg:container mx-auto mb-[8vh] px-6 md:px-10 xl:px-0">
           <div>
             <p class="my-10 lg:my-0 text-center text-lg">
-              Hosting çözümlerimize
-              <strong class="text-[#14803F]">2,800,000</strong> alan adı sahibi
-              güveniyor.
+              Hosting solutions trusted by the owners of
+              <strong class="text-[#14803F]">2,800,000</strong> domains.
             </p>
             <div class="flex-col lg:flex-row flex gap-10 lg:py-8">
               <div
@@ -415,13 +411,13 @@
                       class="text-[#363636] text-lg"
                       style="font-family: var(--roboto)"
                     >
-                      Küçük, orta ölçekli siteler ve işletmeler için hızlı ve
-                      güvenli hosting.
+                      Fast and secure hosting for small and medium sites and
+                      business.
                     </p>
                   </div>
                   <div class="text-blue-600 text-xl">
                     <a href="#">
-                      <span>FİYATLARI İNCELE</span>
+                      <span>VIEW PLANS</span>
                       <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
                   </div>
@@ -442,13 +438,12 @@
                       class="text-[#363636] text-lg"
                       style="font-family: var(--roboto)"
                     >
-                      WordPress ile sitelerinizi kolayca ve daha özgürce
-                      yönetin.
+                      Manage your WordPress sites easily and with more freedom.
                     </p>
                   </div>
                   <div class="text-blue-600 text-xl">
                     <a href="#">
-                      <span>FİYATLARI İNCELE</span>
+                      <span>VIEW PLANS</span>
                       <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
                   </div>
@@ -469,13 +464,12 @@
                       class="text-[#363636] text-lg h-14"
                       style="font-family: var(--roboto)"
                     >
-                      Woo Hosting tarafından optimize edilmiş hosting ile
-                      işinizi geliştirin.
+                      Boost your business with optimized Woo hosting.
                     </p>
                   </div>
                   <div class="text-blue-600 text-xl">
                     <a href="#">
-                      <span>FİYATLARI İNCELE</span>
+                      <span>VIEW PLANS</span>
                       <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
                   </div>
@@ -489,12 +483,11 @@
         <div class="lg:container mx-auto mb-[8vh] px-4 md:px-10 xl:px-0">
           <div class="text-center">
             <h2 class="text-3xl xl:text-5xl font-bold pb-10 xl:pb-14">
-              Siteniz
+              Let Your Site Run up to
               <span
                 class="bg-[#B4EAB5] md:my-0 my-2 inline-block md:inline px-4"
-                >500%'e Kadar</span
+                >500% Faster</span
               >
-              Daha Hızlı Çalışsın.
             </h2>
           </div>
           <article class="flex flex-wrap justify-between gap-y-20 xl:gap-y-36">
@@ -503,14 +496,14 @@
                 <img src="assets/premium_google_cloud.svg" />
                 <div class="flex flex-col gap-4 xl:gap-8">
                   <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
-                    Premium Google Bulut Depolama
+                    Premium Google Cloud
                   </h3>
                   <p>
-                    Platformumuz en üst düzeyde güvenilirlik, güvenlik ve hız
-                    için birinci sınıf Google bulut altyapısı üzerine
-                    kurulmuştur. Optimum site hızı ve yüksek düzeyde yedeklilik
-                    için hızlı ağlarından ve SSD kalıcı depolama alanlarından
-                    yararlanıyoruz.
+                    Our platform is built on the premium Google cloud
+                    infrastructure for top reliability, security and speed. We
+                    take advantage of their fast network and SSD persistent
+                    storage for optimal site speed and a high-level of
+                    redundancy.
                   </p>
                 </div>
               </div>
@@ -520,13 +513,13 @@
                 <img src="assets/ultrafast_server_setup.svg" />
                 <div class="flex flex-col gap-4 xl:gap-8">
                   <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
-                    Ultra Hızlı Sunucu Kurulumu
+                    Ultrafast server setup
                   </h3>
                   <p>
-                    Yüksek web sitesi performansı için özel bir PHP ve MySQL
-                    uygulaması geliştirdik. PHP kurulumumuz tek başına TTFB'yi
-                    (ilk byte'a kadar geçen süre) önemli ölçüde azaltır ve
-                    sayfalarınızın ortalama %30 daha hızlı yüklenmesini sağlar.
+                    We developed a custom implementation of PHP and MySQL for
+                    high website performance. Our PHP setup alone significantly
+                    cuts the TTFB (time to first byte) and makes your pages load
+                    30% faster on average.
                   </p>
                 </div>
               </div>
@@ -536,16 +529,16 @@
                 <img src="assets/top_wordpress_speed.svg" />
                 <div class="flex flex-col gap-4 xl:gap-8">
                   <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
-                    En Yüksek WordPress Hızı
+                    Top WordPress speed
                   </h3>
                   <p>
-                    WordPress performansını artırmak için sürekli çalışıyoruz.
-                    Bizimle barındırılan tüm sitelerde statik ve dinamik
-                    önbellekleme etkinleştirilir, bu da tek başına 5 kata kadar
-                    daha hızlı sitelerle sonuçlanır. Ayrıca tüm örneklere kendi
-                    Speed Optimizer eklentimizi önceden yüklüyoruz, bu da size
-                    kullanıma hazır medya ve ön uç optimizasyonları ve daha
-                    fazla performans için çevresel kontrol sağlıyor.
+                    We continuously work to boost WordPress performance. All
+                    sites hosted with us get static and dynamic caching enabled,
+                    which alone results in up to 5x faster sites. We also
+                    preinstall our own Speed Optimizer plugin on all instances,
+                    which gives you out-of-the-box media and front-end
+                    optimizations and environmental control for more
+                    performance.
                   </p>
                 </div>
               </div>
@@ -555,15 +548,15 @@
                 <img src="assets/latest_technologies_integrated.svg" />
                 <div class="flex flex-col gap-4 xl:gap-8">
                   <h3 class="text-[#363636] text-2xl xl:text-4xl font-bold">
-                    En Güncel Teknoloji Mimarisi
+                    Latest technologies integrated
                   </h3>
                   <p>
-                    Kullanıcılarına en son hız teknolojilerine erişim sağlayan
-                    ilk hosting şirketleri arasındayız. Müşterilerimiz en yeni
-                    PHP sürümlerinden veya Brotli, HTTP/2, TLS 1.3 ve OCSP
-                    Stapling gibi en yenilikçi protokollerden ve sıkıştırma
-                    algoritmalarından yararlanmak için beklemek zorunda
-                    değiller.
+                    We are consistently among the first hosting companies to
+                    provide their users access to the latest speed technologies.
+                    Our customers do not have to wait in order to take advantage
+                    of the newest PHP versions or the most innovative protocols
+                    and compression algorithms like Brotli, HTTP/2, TLS 1.3 and
+                    OCSP Stapling.
                   </p>
                 </div>
               </div>
@@ -573,7 +566,7 @@
       </section>
       <section>
         <div
-          class="flex flex-col lg:flex-row bg-[#4343F0] gap-x-24 xl:gap-x-32 lg:pr-7"
+          class="flex flex-col lg:flex-row bg-[#4343F0] gap-x-24 xl:gap-x-32 lg:pr-14"
         >
           <div
             class="!w-full !bg-no-repeat !bg-cover !bg-center !h-[400px] lg:!h-[auto]"
@@ -581,16 +574,16 @@
           ></div>
           <article class="text-white py-10 lg:py-14">
             <div
-              class="flex flex-col gap-4 lg:gap-10 pb-14 xl:pb-20 text-center lg:text-left"
+              class="flex flex-col gap-4 lg:gap-8 pb-14 xl:pb-24 text-center lg:text-left"
             >
               <h2
-                class="text-3xl lg:text-5xl font-bold lg:leading-tight md:px-0 px-6"
+                class="text-3xl lg:text-5xl font-bold lg:leading-tight lg:w-[400px] md:px-0 px-6"
               >
-                En yüksek puanlı hosting desteğinin keyfini çıkartın
+                Enjoy top-rated hosting support
               </h2>
               <p class="text-xl lg:text-2xl px-6 md:px-0">
-                Müşteri Hizmetleri ekibimiz, çevrimiçi olarak en yüksek puan
-                alan destek ekipleri arasındadır.
+                Our Customer Care team is among the highest - rated support
+                squads online, fast, multi-skiller and helpful.
               </p>
             </div>
             <div class="flex flex-col gap-6 sm:gap-8 px-4 md:px-0">
@@ -598,24 +591,24 @@
                 class="flex flex-col sm:flex-row justify-between gap-6 sm:gap-10 xl:gap-0 text-center lg:text-left"
               >
                 <div class="w-full sm:w-1/2">
-                  <h3 class="text-2xl font-bold">7/24 Hizmet</h3>
-                  <p>Günün her saati destek hizmeti</p>
+                  <h3 class="text-2xl font-bold">Available 7/24</h3>
+                  <p>Round-the-clock help center</p>
                 </div>
                 <div class="w-full sm:w-1/2">
-                  <h3 class="text-2xl font-bold">Pozitif ve Arkadaşça</h3>
-                  <p>Her zaman yardım etmeye hevesli</p>
+                  <h3 class="text-2xl font-bold">Proficient & Friendly</h3>
+                  <p>Always eager to help</p>
                 </div>
               </div>
               <div
                 class="flex flex-col sm:flex-row justify-between gap-6 sm:gap-10 xl:gap-0 text-center lg:text-left"
               >
                 <div class="w-full sm:w-1/2">
-                  <h3 class="text-2xl font-bold">Son Derece Hızlı</h3>
-                  <p>Hızlı süreç ve çözümleme</p>
+                  <h3 class="text-2xl font-bold">Extremely Fast</h3>
+                  <p>Quick pickup & resolution</p>
                 </div>
                 <div class="w-full sm:w-1/2">
-                  <h3 class="text-2xl font-bold">%98 Memnuniyet</h3>
-                  <p>Derecelendirilmiş etkinliklere göre</p>
+                  <h3 class="text-2xl font-bold">98% Satisfaction</h3>
+                  <p>Based on rated interactions</p>
                 </div>
               </div>
             </div>
@@ -631,19 +624,20 @@
               <h2
                 class="text-3xl xl:text-5xl font-bold leading-none xl:leading-tight"
               >
-                Önemli olan ilk şey sitenizin güvenliğidir
+                Put your site’s safety first
               </h2>
               <p class="text-xl xl:text-2xl xl:leading-loose">
-                7/24 sistem yönetimi, akıllı WAF, dağıtılmış yedeklemeler ve çok
-                sayıda ekstra güvenlik özelliğimizle, ziyaretçi ve güvenilirlik
-                kaybetmemeniz için sitenizi güvende tutmanıza destek oluyoruz.
+                With our 7/24 system administration, smart WAF, distributed
+                backups and plenty of extra security features, we support you in
+                keeping your site safe so you don’t lose visitors and
+                credibility.
               </p>
               <div class="py-6">
                 <a
                   href="#"
                   class="py-4 px-8 border-2 border-blue-600 text-blue-600 rounded-full font-bold uppercase text-lg hover:bg-blue-700 hover:text-white transition-all duration-300"
                 >
-                  <span>DAHA FAZLA</span>
+                  <span>LEARN MORE</span>
                 </a>
               </div>
             </div>
@@ -662,11 +656,11 @@
             class="w-3/4 xl:w-1/2 mx-auto flex flex-col gap-6 xl:gap-12 pb-10 xl:pb-12"
           >
             <h2 class="text-3xl xl:text-5xl font-bold text-center">
-              Müşterilerimizin Başarı Hikayeleri
+              Customer Success Stories
             </h2>
             <p class="text-2xl text-center">
-              Platformumuzdaki işletme sahiplerini ve serbest çalışan
-              profesyonelleri hikayelerini paylaşarak kutluyoruz.
+              Celebrating business owners and freelance professionals on our
+              platform by sharing their stories.
             </p>
           </div>
           <article class="w-11/12 xl:w-1/2 mx-auto">
@@ -700,7 +694,7 @@
             <h3
               class="text-lg md:text-2xl font-bold max-md:flex max-md:items-center max-md:justify-between cursor-pointer footerToggle"
             >
-              HOSTING SERVİSLERİ
+              HOSTING SERVICES
               <i class="fa-solid fa-chevron-right md:hidden"></i>
             </h3>
             <ul class="footerUl max-md:flex max-md:flex-col max-md:gap-3">
@@ -714,16 +708,16 @@
                 <a href="">WooCommerce Hosting</a>
               </li>
               <li>
-                <a href="">Bayiler için Hosting</a>
+                <a href="">Reseller Hosting</a>
               </li>
               <li>
-                <a href="">Bulut Hosting</a>
+                <a href="">Cloud Hosting</a>
               </li>
               <li>
-                <a href="">Domain Adları</a>
+                <a href="">Domain Names</a>
               </li>
               <li>
-                <a href="">Ajanslar için Web Hosting</a>
+                <a href="">Web Hosting for Agencies</a>
               </li>
             </ul>
           </div>
@@ -733,42 +727,42 @@
             <h3
               class="text-lg md:text-2xl font-bold max-md:flex max-md:items-center max-md:justify-between cursor-pointer footerToggle"
             >
-              FAYDALI KAYNAKLAR
+              USEFUL SOURCES
               <i class="fa-solid fa-chevron-right md:hidden"></i>
             </h3>
             <ul class="footerUl max-md:flex max-md:flex-col max-md:gap-3">
               <li>
-                <a href="">WordPress Eğitimi</a>
+                <a href="">WordPress Tutorial</a>
               </li>
               <li>
-                <a href="">WordPress Eklentileri</a>
+                <a href="">WordPress Plugins</a>
               </li>
               <li>
-                <a href="">WordPress Optimizasyon Ebook</a>
+                <a href="">WordPress Optimization Ebook</a>
               </li>
               <li>
-                <a href="">WordPress Güvenlik Ebook</a>
+                <a href="">WordPress Security Ebook</a>
               </li>
               <li>
                 <a href="">WooCommerce Ebook</a>
               </li>
               <li>
-                <a href="">WordPress REST API Kullanımı Ebook</a>
+                <a href="">Using WordPress REST API Ebook</a>
               </li>
               <li>
-                <a href="">Çevrim İçi Satışa Başlama Rehberi</a>
+                <a href="">Start Selling Online Guide</a>
               </li>
               <li>
-                <a href="">Küçük İşletmeler İçin Rehber</a>
+                <a href="">Small Business Guide</a>
               </li>
               <li>
-                <a href="">Tatil Pazarlama Rehberi</a>
+                <a href="">Holiday Marketing Guide</a>
               </li>
               <li>
-                <a href="">Tatil Sonrası Pazarlama Rehberi</a>
+                <a href="">Post-Holiday Sales Guide</a>
               </li>
               <li>
-                <a href="">Bilgi Bankası</a>
+                <a href="">Knowledge Base</a>
               </li>
             </ul>
           </div>
@@ -778,56 +772,56 @@
             <h3
               class="text-lg md:text-2xl font-bold max-md:flex max-md:items-center max-md:justify-between cursor-pointer footerToggle"
             >
-              HAKKIMIZDA
+              ABOUT US
               <i class="fa-solid fa-chevron-right md:hidden"></i>
             </h3>
             <ul class="footerUl max-md:flex max-md:flex-col max-md:gap-3">
               <li>
-                <a href="">Şirket</a>
+                <a href="">Company</a>
               </li>
               <li>
-                <a href="">Ortaklık Programı</a>
+                <a href="">Affiliate Program</a>
               </li>
               <li>
-                <a href="">Marka İncelemesi</a>
+                <a href="">SiteGround Review</a>
               </li>
               <li>
                 <a href="">Blog</a>
               </li>
               <li>
-                <a href="">Kariyer</a>
+                <a href="">Carrers</a>
               </li>
               <li>
-                <a href="">Marka Varlıkları</a>
+                <a href="">Brand Assets</a>
               </li>
               <li>
-                <a href="">İletişime Geç</a>
+                <a href="">Contact Us</a>
               </li>
             </ul>
           </div>
           <div
             class="w-[calc(50%-12px)] lg:w-1/4 hidden md:flex flex-col gap-3"
           >
-            <h3 class="text-2xl font-bold">YENİ BLOGLAR</h3>
+            <h3 class="text-2xl font-bold">RECENT FROM BLOG</h3>
             <ul>
               <li>
                 <a href="">
-                  Markamızın CDN'in 'Saldırı Altında' Modu ile Gelişmiş HTTP
-                  Saldırılarını Engelleyin
+                  Block Sophisticated HTTP Attacks with SiteGround CDN’s ‘Under
+                  Attack’ Mode
                 </a>
                 <div class="flex justify-between py-3">
-                  <span>25 Tem, 2023</span>
-                  <a href="" class="hover:underline">Devamını Oku</a>
+                  <span>25 Oct, 2023</span>
+                  <a href="" class="hover:underline">Read More</a>
                 </div>
               </li>
               <li>
                 <a href="">
-                  Müşteri Desteğinde Devrim Yaratıyor: SiteGround'un Yapay Zeka
-                  Asistanı ile Geleceğe Hoş Geldiniz
+                  Revolutionizing Customer Support: Welcome to the Future with
+                  SiteGround’s AI Assistant
                 </a>
                 <div class="flex justify-between py-3">
-                  <span>21 Kas, 2023</span>
-                  <a href="" class="hover:underline">Devamını Oku</a>
+                  <span>21 Sep, 2023</span>
+                  <a href="" class="hover:underline">Read More</a>
                 </div>
               </li>
             </ul>
@@ -840,22 +834,21 @@
             class="flex flex-col-reverse lg:flex-row gap-4 items-center lg:items-start"
           >
             <div class="text-lg">
-              <span>Uyruk: &nbsp;</span>
+              <span>Region: &nbsp;</span>
               <select name="" id="">
-                <option value="">Türkiye</option>
-                <option value="">ABD</option>
-                <option value="">Birleşik Krallık</option>
-                <option value="">İspanya</option>
-                <option value="">İtalya</option>
-                <option value="">Almanya</option>
-                <option value="">Franse</option>
-                <option value="">Avrupa</option>
-                <option value="">Avustralya</option>
-                <option value="">Şili</option>
+                <option value="">United States</option>
+                <option value="">United Kingdoms</option>
+                <option value="">Spain</option>
+                <option value="">Italy</option>
+                <option value="">Germany</option>
+                <option value="">France</option>
+                <option value="">Europa</option>
+                <option value="">Australia</option>
+                <option value="">LATAM</option>
               </select>
             </div>
             <div class="flex text-lg">
-              <span>Kullandıklarımız: &nbsp;</span>
+              <span>We Accept: &nbsp;</span>
               <div>
                 <i class="fa-brands fa-cc-visa"></i>
                 <i class="fa-brands fa-cc-mastercard"></i>
@@ -876,16 +869,16 @@
               <a
                 href="#"
                 class="font-bold text-lg lg:text-xl border-r border-blue-700 pr-3"
-                >Şartlar ve Koşullar</a
+                >Terms and Conditions</a
               >
               <a
                 href="#"
                 class="font-bold text-lg lg:text-xl border-r border-blue-700 pr-3"
-                >Gizlilik</a
+                >Privacy</a
               >
             </div>
             <p class="text-base lg:text-lg text-center lg:text-left">
-              © 2023 Tüm haklar saklıdır.
+              © 2023 All rights reserved.
             </p>
           </div>
           <div class="text-4xl flex gap-10">
