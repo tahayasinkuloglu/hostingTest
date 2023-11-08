@@ -23,6 +23,30 @@ footer > div > div > ul > li > a:hover {
   text-decoration: underline;
 }
 
+.fa-xmark {
+  width: 21px !important;
+  height: 24px !important;
+  font-size: 30px !important;
+  transform: translateY(3px);
+  position: relative;
+}
+
+.fa-xmark::after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  top: -5px;
+  left: -9px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.fa-bars {
+  transform: translateY(4px);
+}
+
 .hostingItem,
 .technologyItem,
 .aboutUsItem {
@@ -35,11 +59,31 @@ footer > div > div > ul > li > a:hover {
   display: block;
 }
 
+@media not all and (min-width: 1024px) {
+  .open {
+    transform: translateX(-45px) !important;
+    opacity: 1 !important;
+    z-index: 100 !important;
+  }
+
+  .hamburgerMenuActive {
+    opacity: 0 !important;
+    height: 0px !important;
+    display: none !important;
+    transition: all 0.3s ease !important;
+  }
+
+  .hamburgerMenuToggle ~ .hamburgerMenuActive {
+    opacity: 1 !important;
+    height: 100% !important;
+    display: block !important;
+  }
+}
+
 @media not all and (min-width: 768px) {
   .fa-chevron-right {
     display: none;
     padding: 0px 4px;
-    transition: all 0.3s ease;
   }
 
   .activeArrow {
@@ -55,5 +99,11 @@ footer > div > div > ul > li > a:hover {
   .active ~ .footerUl {
     opacity: 1;
     height: 250px;
+  }
+}
+
+@media (max-width: 640px) {
+  .open {
+    transform: translateX(-25px) !important;
   }
 }

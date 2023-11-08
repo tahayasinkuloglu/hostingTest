@@ -26,7 +26,7 @@
       <div
         class="flex items-center justify-between lg:justify-normal lg:container h-full mx-auto gap-5 px-4 sm:px-10 xl:px-0 relative"
       >
-        <div class="max-lg:flex max-lg:items-center max-lg:gap-8">
+        <div class="max-lg:flex max-lg:items-center max-lg:gap-4">
           <div class="hidden max-lg:block">
             <i
               class="fa-solid fa-bars text-2xl cursor-pointer"
@@ -35,12 +35,59 @@
           </div>
           <img src="assets/logo-siteground.png" class="w-40" />
         </div>
-        <nav class="hidden lg:flex lg:flex-1 lg:items-center">
-          <ul class="flex text-xl font-bold">
-            <li class="flex items-center hover:bg-white rounded-2xl hosting">
-              <a href="#" class="px-4 h-16 flex items-center"> Hosting </a>
+        <nav
+          class="lg:flex lg:flex-1 lg:items-center max-lg:absolute max-lg:top-24 max-lg:-translate-x-80 max-lg:rounded-tr-2xl max-lg:h-screen navBar transition duration-300 max-lg:opacity-0 max-lg:bg-white"
+        >
+          <ul
+            class="flex lg:flex-row flex-col text-xl font-bold max-lg:text-lg max-lg:py-3 max-lg:uppercase"
+          >
+            <li class="flex items-center hover:bg-white rounded-2xl lg:hidden">
+              <a
+                href="#"
+                class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:pr-48 max-lg:font-[Roboto] max-lg:px-5"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="flex items-center hover:bg-white rounded-2xl hosting max-lg:flex-col"
+            >
+              <a
+                href="#"
+                class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:font-[Roboto] max-lg:w-full max-lg:px-5 justify-between hamburgerDisable"
+              >
+                Hosting
+                <i class="fa-solid fa-plus text-xl lg:hidden"></i>
+              </a>
+              <div class="mb-2 w-full lg:hidden hamburgerMenuActive">
+                <ul
+                  class="font-light font-[Poppins] text-sm flex flex-col text-left w-full"
+                >
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Web Hosting</a>
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5"
+                      >WordPress Hosting</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5"
+                      >WooCommerce Hosting</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Cloud Hosting</a>
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5"
+                      >Reseller Hosting</a
+                    >
+                  </li>
+                </ul>
+              </div>
               <div
-                class="absolute container mx-auto left-0 top-20 bg-white p-4 rounded-xl hostingItem"
+                class="max-lg:!hidden absolute container mx-auto left-0 top-20 bg-white p-4 rounded-xl hostingItem"
               >
                 <ul class="flex">
                   <li
@@ -121,10 +168,30 @@
                 </ul>
               </div>
             </li>
-            <li class="flex items-center hover:bg-white rounded-2xl technology">
-              <a href="#" class="px-4 h-16 flex items-center">Technology</a>
+            <li
+              class="flex items-center hover:bg-white rounded-2xl technology max-lg:flex-col"
+            >
+              <a
+                href="#"
+                class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:font-[Roboto] max-lg:w-full max-lg:px-5 justify-between hamburgerDisable"
+              >
+                Technology
+                <i class="fa-solid fa-plus text-xl lg:hidden"></i
+              ></a>
+              <div class="mb-2 lg:hidden w-full hamburgerMenuActive">
+                <ul
+                  class="font-light font-[Poppins] text-sm flex flex-col text-left w-full"
+                >
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Technology</a>
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Data Centers</a>
+                  </li>
+                </ul>
+              </div>
               <div
-                class="absolute mx-auto left-0 top-20 bg-white p-4 rounded-xl technologyItem"
+                class="max-lg:!hidden absolute mx-auto left-0 top-20 bg-white p-4 rounded-xl technologyItem"
               >
                 <ul class="flex">
                   <li
@@ -155,10 +222,36 @@
                 </ul>
               </div>
             </li>
-            <li class="flex items-center hover:bg-white rounded-2xl aboutUs">
-              <a href="#" class="px-4 h-16 flex items-center">About Us</a>
+            <li
+              class="flex items-center hover:bg-white rounded-2xl aboutUs max-lg:flex-col"
+            >
+              <a
+                href="#"
+                class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:font-[Roboto] max-lg:w-full max-lg:px-5 justify-between hamburgerDisable"
+              >
+                About Us
+                <i class="fa-solid fa-plus text-xl lg:hidden"></i>
+              </a>
+              <div class="mb-2 lg:hidden w-full hamburgerMenuActive">
+                <ul
+                  class="font-light font-[Poppins] text-sm flex flex-col text-left w-full"
+                >
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Company</a>
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Support</a>
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Clients</a>
+                  </li>
+                  <li>
+                    <a href="#" class="w-full block py-4 px-5">Blog</a>
+                  </li>
+                </ul>
+              </div>
               <div
-                class="absolute mx-auto left-0 top-20 bg-white p-4 rounded-xl aboutUsItem"
+                class="max-lg:!hidden absolute mx-auto left-0 top-20 bg-white p-4 rounded-xl aboutUsItem"
               >
                 <ul class="flex">
                   <li
@@ -218,7 +311,11 @@
               </div>
             </li>
             <li class="flex items-center hover:bg-white rounded-2xl">
-              <a href="#" class="px-4 h-16 flex items-center">Affiliates</a>
+              <a
+                href="#"
+                class="lg:px-4 lg:h-16 flex items-center max-lg:h-12 max-lg:font-[Roboto] max-lg:w-full max-lg:px-5"
+                >Affiliates</a
+              >
             </li>
           </ul>
         </nav>
@@ -463,11 +560,11 @@
               class="flex flex-col gap-4 lg:gap-8 pb-14 xl:pb-24 text-center lg:text-left"
             >
               <h2
-                class="text-3xl lg:text-5xl font-bold lg:leading-tight lg:w-[400px]"
+                class="text-3xl lg:text-5xl font-bold lg:leading-tight lg:w-[400px] md:px-0 px-6"
               >
                 Enjoy top-rated hosting support
               </h2>
-              <p class="text-xl lg:text-2xl sm:px-14 lg:px-0">
+              <p class="text-xl lg:text-2xl px-6 md:px-0">
                 Our Customer Care team is among the highest - rated support
                 squads online, fast, multi-skiller and helpful.
               </p>
@@ -549,7 +646,7 @@
               platform by sharing their stories.
             </p>
           </div>
-          <article class="w-3/4 xl:w-1/2 mx-auto">
+          <article class="w-11/12 xl:w-1/2 mx-auto">
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">

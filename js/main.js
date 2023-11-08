@@ -1,6 +1,27 @@
 const accordion = document.getElementsByClassName("footerToggle");
 const chevronArrow = document.getElementsByClassName("fa-chevron-right");
 const hamburgerMenu = document.getElementById("hamburger");
+const toggleItem = document.getElementsByClassName("hamburgerDisable");
+const navbar = document.getElementsByClassName("navBar")[0];
+const plus = document.querySelectorAll(".fa-plus");
+
+hamburgerMenu.addEventListener("click", () => {
+  navbar.classList.toggle("open");
+
+  if (hamburgerMenu.classList.contains("fa-bars")) {
+    hamburgerMenu.classList.remove("fa-bars");
+    hamburgerMenu.classList.add("fa-xmark");
+  } else {
+    hamburgerMenu.classList.remove("fa-xmark");
+    hamburgerMenu.classList.add("fa-bars");
+  }
+});
+
+for (let i = 0; i < toggleItem.length; i++) {
+  toggleItem[i].addEventListener("click", function () {
+    this.classList.toggle("hamburgerMenuToggle");
+  });
+}
 
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
