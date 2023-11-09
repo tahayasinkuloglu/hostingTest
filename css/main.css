@@ -59,6 +59,10 @@ footer > div > div > ul > li > a:hover {
   display: block;
 }
 
+.customShadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 @media not all and (min-width: 1024px) {
   .open {
     transform: translateX(-45px) !important;
@@ -94,6 +98,14 @@ footer > div > div > ul > li > a:hover {
     opacity: 0;
     height: 0px;
     transition: all 0.3s ease;
+  }
+
+  .customFeaturesItem {
+    display: none;
+  }
+
+  .activeFeatures ~ .customFeaturesItem {
+    display: block;
   }
 
   .active ~ .footerUl {

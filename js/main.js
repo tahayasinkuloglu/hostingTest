@@ -1,4 +1,5 @@
 const accordion = document.getElementsByClassName("footerToggle");
+const showFeatures = document.getElementsByClassName("customFeatures");
 const chevronArrow = document.getElementsByClassName("fa-chevron-right");
 const hamburgerMenu = document.getElementById("hamburger");
 const toggleItem = document.getElementsByClassName("hamburgerDisable");
@@ -37,5 +38,11 @@ for (let i = 0; i < accordion.length; i++) {
     this.classList.toggle("active");
     const chevronArrow = this.getElementsByClassName("fa-chevron-right")[0];
     chevronArrow.classList.toggle("activeArrow");
+  });
+}
+
+for (let i = 0; i < showFeatures.length; i++) {
+  showFeatures[i].addEventListener("click", function () {
+    this.classList.toggle("activeFeatures");
   });
 }
