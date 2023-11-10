@@ -6,6 +6,46 @@ const toggleItem = document.getElementsByClassName("hamburgerDisable");
 const navbar = document.getElementsByClassName("navBar")[0];
 const plus = document.querySelectorAll(".fa-plus");
 
+document.addEventListener("DOMContentLoaded", function () {
+  const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
+
+  tooltipTriggers.forEach((tooltipTrigger) => {
+    const tooltip = document.createElement("div");
+    tooltip.className = "tooltip";
+    document.body.appendChild(tooltip);
+
+    tooltipTrigger.addEventListener("mouseover", function (e) {
+      const tooltipText = this.getAttribute("data-tooltip");
+      tooltip.innerHTML = tooltipText;
+      tooltip.style.display = "block";
+    });
+
+    tooltipTrigger.addEventListener("mousemove", function (e) {
+      const x = e.clientX;
+      const y = e.clientY;
+
+      const tooltipRect = tooltip.getBoundingClientRect();
+      const screenWidth = window.innerWidth;
+
+      if (screenWidth < 768 && tooltipRect.width !== 0) {
+        tooltip.style.left = (screenWidth - tooltipRect.width) / 2 + "px";
+      } else {
+        if (x + tooltipRect.width > screenWidth) {
+          tooltip.style.left = x - tooltipRect.width - 10 + "px";
+        } else {
+          tooltip.style.left = x + 30 + "px";
+        }
+      }
+
+      tooltip.style.top = y + 15 + "px";
+    });
+
+    tooltipTrigger.addEventListener("mouseout", function () {
+      tooltip.style.display = "none";
+    });
+  });
+});
+
 hamburgerMenu.addEventListener("click", () => {
   navbar.classList.toggle("open");
 

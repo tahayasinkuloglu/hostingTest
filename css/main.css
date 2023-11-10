@@ -63,6 +63,39 @@ footer > div > div > ul > li > a:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.tooltip {
+  position: fixed;
+  display: none;
+  max-width: 300px;
+  padding: 8px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  z-index: 100;
+  text-align: center;
+}
+
+.customDotted,
+.customDotted-2,
+.customDotted > li,
+.customDotted-2 > li,
+.customDotted > li > span,
+.customDotted-2 > li > span {
+  cursor: default !important;
+}
+
+.customDotted > li:not(:nth-child(-n + 2), :nth-child(14)) {
+  width: max-content;
+  margin: 0 auto 0 auto;
+  border-bottom: 2px dotted #363636;
+}
+
+.customDotted-2 > li {
+  width: max-content;
+  margin: 0 auto 0 auto;
+  border-bottom: 2px dotted #363636;
+}
+
 @media not all and (min-width: 1024px) {
   .open {
     transform: translateX(-45px) !important;
