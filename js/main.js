@@ -10,6 +10,32 @@ const yeniEbeveyn = document.getElementById("yeniEbeveyn");
 const yeniEbeveynAccordion = document.getElementById("yeniEbeveynAccordion");
 const test = document.querySelectorAll(".fa-plus");
 
+const replyBtn = document.getElementsByClassName("reply");
+const cancelBtn = document.getElementById("cancelBtn");
+const replyDiv = document.getElementById("replyDiv");
+const replyContainer = document.getElementsByClassName("replyContainer");
+
+if (replyBtn) {
+  for (let i = 0; i < replyBtn.length; i++) {
+    replyBtn[i].addEventListener("click", (e) => {
+      e.preventDefault();
+
+      if (true) {
+        replyDiv.classList.remove("hidden");
+        replyDiv.classList.add("block");
+        replyContainer[i].appendChild(replyDiv);
+      }
+
+      cancelBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        replyDiv.classList.add("hidden");
+        replyBtn[i].classList.remove("hidden");
+        replyBtn[i].classList.add("block");
+      });
+    });
+  }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
 
