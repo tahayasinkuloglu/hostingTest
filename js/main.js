@@ -24,7 +24,7 @@ function blog() {
   });
 }
 
-setInterval(blog, 1);
+//setInterval(blog, 1);
 
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
