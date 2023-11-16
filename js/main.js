@@ -7,46 +7,8 @@ const navbar = document.getElementsByClassName("navBar")[0];
 const plus = document.querySelectorAll(".fa-plus");
 const more = document.getElementById("more");
 const yeniEbeveyn = document.getElementById("yeniEbeveyn");
-
-function blog() {
-  let genislik = window.innerWidth;
-
-  const tasinanOgeler = document.querySelectorAll(".child");
-  const yeniEbeveyn = document.getElementById("yeniEbeveyn");
-  const eskiEbeveyn = document.getElementById("eskiEbeveyn");
-
-  tasinanOgeler.forEach((oge) => {
-    let ogeGenislik = parseInt(oge.getAttribute("data-genislik"), 10);
-
-    if (ogeGenislik >= genislik) {
-      yeniEbeveyn.appendChild(oge);
-    } else {
-      eskiEbeveyn.appendChild(oge);
-    }
-  });
-}
-
-window.addEventListener("load", blog);
-window.addEventListener("resize", blog);
-
-more.addEventListener("click", () => {
-  if (yeniEbeveyn.classList.contains("hidden")) {
-    yeniEbeveyn.classList.remove("hidden");
-    yeniEbeveyn.classList.add("flex");
-  } else {
-    yeniEbeveyn.classList.add("hidden");
-    yeniEbeveyn.classList.remove("flex");
-  }
-});
-
-document.body.addEventListener("click", (e) => {
-  if (e.target !== more && !yeniEbeveyn.contains(e.target)) {
-    if (!yeniEbeveyn.classList.contains("hidden")) {
-      yeniEbeveyn.classList.add("hidden");
-      yeniEbeveyn.classList.remove("flex");
-    }
-  }
-});
+const yeniEbeveynAccordion = document.getElementById("yeniEbeveynAccordion");
+const test = document.querySelectorAll(".fa-plus");
 
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
@@ -88,21 +50,31 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-hamburgerMenu.addEventListener("click", () => {
-  navbar.classList.toggle("open");
+if (hamburgerMenu) {
+  hamburgerMenu.addEventListener("click", () => {
+    navbar.classList.toggle("open");
 
-  if (hamburgerMenu.classList.contains("fa-bars")) {
-    hamburgerMenu.classList.remove("fa-bars");
-    hamburgerMenu.classList.add("fa-xmark");
-  } else {
-    hamburgerMenu.classList.remove("fa-xmark");
-    hamburgerMenu.classList.add("fa-bars");
-  }
-});
+    if (hamburgerMenu.classList.contains("fa-bars")) {
+      hamburgerMenu.classList.remove("fa-bars");
+      hamburgerMenu.classList.add("fa-xmark");
+    } else {
+      hamburgerMenu.classList.remove("fa-xmark");
+      hamburgerMenu.classList.add("fa-bars");
+    }
+  });
+}
 
 for (let i = 0; i < toggleItem.length; i++) {
   toggleItem[i].addEventListener("click", function () {
     this.classList.toggle("hamburgerMenuToggle");
+
+    if (test[i].classList.contains("fa-plus")) {
+      test[i].classList.remove("fa-plus");
+      test[i].classList.add("fa-minus");
+    } else {
+      test[i].classList.remove("fa-minus");
+      test[i].classList.add("fa-plus");
+    }
   });
 }
 
@@ -117,5 +89,17 @@ for (let i = 0; i < accordion.length; i++) {
 for (let i = 0; i < showFeatures.length; i++) {
   showFeatures[i].addEventListener("click", function () {
     this.classList.toggle("activeFeatures");
+  });
+}
+
+if (yeniEbeveyn) {
+  yeniEbeveyn.addEventListener("click", () => {
+    if (yeniEbeveynAccordion.classList.contains("hidden")) {
+      yeniEbeveynAccordion.classList.remove("hidden");
+      yeniEbeveynAccordion.classList.add("flex");
+    } else {
+      yeniEbeveynAccordion.classList.add("hidden");
+      yeniEbeveynAccordion.classList.remove("flex");
+    }
   });
 }
