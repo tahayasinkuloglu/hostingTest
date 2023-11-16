@@ -5,6 +5,8 @@ const hamburgerMenu = document.getElementById("hamburger");
 const toggleItem = document.getElementsByClassName("hamburgerDisable");
 const navbar = document.getElementsByClassName("navBar")[0];
 const plus = document.querySelectorAll(".fa-plus");
+const more = document.getElementById("more");
+const yeniEbeveyn = document.getElementById("yeniEbeveyn");
 
 function blog() {
   let genislik = window.innerWidth;
@@ -24,7 +26,27 @@ function blog() {
   });
 }
 
-//setInterval(blog, 1);
+window.addEventListener("load", blog);
+window.addEventListener("resize", blog);
+
+more.addEventListener("click", () => {
+  if (yeniEbeveyn.classList.contains("hidden")) {
+    yeniEbeveyn.classList.remove("hidden");
+    yeniEbeveyn.classList.add("flex");
+  } else {
+    yeniEbeveyn.classList.add("hidden");
+    yeniEbeveyn.classList.remove("flex");
+  }
+});
+
+document.body.addEventListener("click", (e) => {
+  if (e.target !== more && !yeniEbeveyn.contains(e.target)) {
+    if (!yeniEbeveyn.classList.contains("hidden")) {
+      yeniEbeveyn.classList.add("hidden");
+      yeniEbeveyn.classList.remove("flex");
+    }
+  }
+});
 
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
@@ -97,25 +119,3 @@ for (let i = 0; i < showFeatures.length; i++) {
     this.classList.toggle("activeFeatures");
   });
 }
-
-const more = document.getElementById("more");
-const yeniEbeveyn = document.getElementById("yeniEbeveyn");
-
-more.addEventListener("click", () => {
-  if (yeniEbeveyn.classList.contains("hidden")) {
-    yeniEbeveyn.classList.remove("hidden");
-    yeniEbeveyn.classList.add("flex");
-  } else {
-    yeniEbeveyn.classList.add("hidden");
-    yeniEbeveyn.classList.remove("flex");
-  }
-});
-
-document.body.addEventListener("click", (e) => {
-  if (e.target !== more && !yeniEbeveyn.contains(e.target)) {
-    if (!yeniEbeveyn.classList.contains("hidden")) {
-      yeniEbeveyn.classList.add("hidden");
-      yeniEbeveyn.classList.remove("flex");
-    }
-  }
-});
