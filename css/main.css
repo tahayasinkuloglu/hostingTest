@@ -104,6 +104,12 @@ footer > div > div > ul > li > a:hover {
   display: block;
 }
 
+@media (max-width: 1399px) {
+  .customLi {
+    display: block !important;
+  }
+}
+
 @media not all and (min-width: 1024px) {
   .open {
     transform: translateX(-45px) !important;

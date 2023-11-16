@@ -6,6 +6,26 @@ const toggleItem = document.getElementsByClassName("hamburgerDisable");
 const navbar = document.getElementsByClassName("navBar")[0];
 const plus = document.querySelectorAll(".fa-plus");
 
+function blog() {
+  const genislik = window.innerWidth;
+
+  const tasinanOgeler = document.querySelectorAll(".child");
+  const yeniEbeveyn = document.getElementById("yeniEbeveyn");
+  const eskiEbeveyn = document.getElementById("eskiEbeveyn");
+
+  tasinanOgeler.forEach((oge) => {
+    let ogeGenislik = parseInt(oge.getAttribute("data-genislik"), 10);
+
+    if (ogeGenislik > genislik) {
+      yeniEbeveyn.appendChild(oge);
+    } else {
+      eskiEbeveyn.appendChild(oge);
+    }
+  });
+}
+window.addEventListener("load", blog);
+window.addEventListener("resize", blog);
+
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
 
@@ -64,15 +84,6 @@ for (let i = 0; i < toggleItem.length; i++) {
   });
 }
 
-const swiper = new Swiper(".swiper", {
-  direction: "horizontal",
-  loop: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
 for (let i = 0; i < accordion.length; i++) {
   accordion[i].addEventListener("click", function () {
     this.classList.toggle("active");
@@ -86,3 +97,25 @@ for (let i = 0; i < showFeatures.length; i++) {
     this.classList.toggle("activeFeatures");
   });
 }
+
+const more = document.getElementById("more");
+const yeniEbeveyn = document.getElementById("yeniEbeveyn");
+
+more.addEventListener("click", () => {
+  if (yeniEbeveyn.classList.contains("hidden")) {
+    yeniEbeveyn.classList.remove("hidden");
+    yeniEbeveyn.classList.add("flex");
+  } else {
+    yeniEbeveyn.classList.add("hidden");
+    yeniEbeveyn.classList.remove("flex");
+  }
+});
+
+document.body.addEventListener("click", (e) => {
+  if (e.target !== more && !yeniEbeveyn.contains(e.target)) {
+    if (!yeniEbeveyn.classList.contains("hidden")) {
+      yeniEbeveyn.classList.add("hidden");
+      yeniEbeveyn.classList.remove("flex");
+    }
+  }
+});
