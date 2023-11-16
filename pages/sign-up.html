@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>SIGN UP</title>
+  </head>
+  <body>
+    <main class="flex w-full">
+      <div
+        class="bg-[#DFECFC] w-1/2 h-screen flex flex-col justify-center items-center px-5 max-lg:hidden"
+      >
+        <div>
+          <img src="../assets/performance-security-reports-image.svg" />
+        </div>
+        <div class="flex flex-col text-center gap-5 mt-7">
+          <h2 class="text-3xl font-bold">Website Raporları</h2>
+          <p class="text-2xl font-bold">Planınıza dahil</p>
+          <p class="w-full xl:w-2/3 mx-auto text-lg">
+            Gelen kutunuza gönderilen aylık raporlarla sitenizin güvenliğini ve
+            performansını takip edin.
+            <b
+              >Müşteri Alanı > Profil > Bildirim Tercihleri bölümünden
+              yönetin.</b
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#F9F9F9] max-lg:w-full w-1/2 h-screen flex flex-col justify-center items-center px-5"
+      >
+        <div>
+          <img
+            src="../assets/webnearly.png"
+            class="invert w-56 max-md:mb-8 mb-16"
+          />
+        </div>
+        <form
+          action=""
+          class="flex flex-col text-center max-md:gap-5 gap-7 bg-white p-20 max-md:p-10 rounded-xl shadow-xl"
+        >
+          <h2 class="max-md:text-2xl text-4xl font-bold">Kayıt Ol</h2>
+          <p>Kayıt olmak için e-posta adresinizi girin</p>
+          <input
+            type="text"
+            class="border-[#363636] border w-full p-3 rounded-xl"
+            placeholder="E-Posta"
+          />
+          <div class="relative">
+            <input
+              type="password"
+              class="border-[#363636] border w-full p-3 rounded-xl inputPas"
+              placeholder="Şifre"
+            />
+            <i
+              class="fa-regular fa-eye absolute top-1/2 -translate-y-1/2 right-3 cursor-pointer showPas"
+            ></i>
+          </div>
+          <div class="relative">
+            <input
+              type="password"
+              class="border-[#363636] border w-full p-3 rounded-xl inputPas"
+              placeholder="Şifre (Tekrar)"
+            />
+            <i
+              class="fa-regular fa-eye absolute top-1/2 -translate-y-1/2 right-3 cursor-pointer showPas"
+            ></i>
+          </div>
+          <a
+            href="#"
+            class="bg-blue-700 text-xl font-bold text-white rounded-full px-6 py-3"
+            >DEVAM ET</a
+          >
+          <div class="flex max-lg:flex-col">
+            <a href="../pages/login.html" class="text-blue-700 w-max mx-auto">Giriş Yap</a>
+            <a href="#" class="text-blue-700 w-max mx-auto">Şifremi Unuttum</a>
+          </div>
+        </form>
+        <p class="absolute bottom-5 text-center">
+          Google reCAPTCHA used.
+          <a href="#" class="text-blue-700">Privacy Policy</a> and
+          <a href="#" class="text-blue-700">Terms of Service</a> apply.
+        </p>
+      </div>
+    </main>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

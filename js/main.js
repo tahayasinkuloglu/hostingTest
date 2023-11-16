@@ -14,6 +14,20 @@ const replyBtn = document.getElementsByClassName("reply");
 const cancelBtn = document.getElementById("cancelBtn");
 const replyDiv = document.getElementById("replyDiv");
 const replyContainer = document.getElementsByClassName("replyContainer");
+const showPas = document.getElementsByClassName("showPas");
+const inputPas = document.getElementsByClassName("inputPas");
+
+if (showPas) {
+  for (let i = 0; i < showPas.length; i++) {
+    showPas[i].addEventListener("click", () => {
+      if (inputPas[i].type == "password") {
+        inputPas[i].type = "text";
+      } else {
+        inputPas[i].type = "password";
+      }
+    });
+  }
+}
 
 if (replyBtn) {
   for (let i = 0; i < replyBtn.length; i++) {
