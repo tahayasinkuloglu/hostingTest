@@ -7,7 +7,7 @@ const navbar = document.getElementsByClassName("navBar")[0];
 const plus = document.querySelectorAll(".fa-plus");
 
 function blog() {
-  const genislik = window.innerWidth;
+  let genislik = window.innerWidth;
 
   const tasinanOgeler = document.querySelectorAll(".child");
   const yeniEbeveyn = document.getElementById("yeniEbeveyn");
@@ -16,15 +16,15 @@ function blog() {
   tasinanOgeler.forEach((oge) => {
     let ogeGenislik = parseInt(oge.getAttribute("data-genislik"), 10);
 
-    if (ogeGenislik > genislik) {
+    if (ogeGenislik >= genislik) {
       yeniEbeveyn.appendChild(oge);
     } else {
       eskiEbeveyn.appendChild(oge);
     }
   });
 }
-window.addEventListener("load", blog);
-window.addEventListener("resize", blog);
+
+setInterval(blog, 1);
 
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggers = document.querySelectorAll(".tooltip-trigger");
